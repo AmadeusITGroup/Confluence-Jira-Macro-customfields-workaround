@@ -3,8 +3,8 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.amadeus.jira.plugin</groupId>
-  <artifactId>issuesearch-allcustom-workaround</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>confluence-jira-macro-customfields-workaround</artifactId>
+  <version>1.0</version>
   <packaging>atlassian-plugin</packaging>
   <description>
     Working around https://jira.atlassian.com/browse/CONFSERVER-56017
@@ -35,7 +35,7 @@
     <url>https://github.com/AmadeusITGroup/Confluence-Jira-Macro-customfields-workaround</url>
     <connection>scm:git:https://github.com/AmadeusITGroup/Confluence-Jira-Macro-customfields-workaround.git</connection>
     <developerConnection>scm:git:git@github.com:AmadeusITGroup/Confluence-Jira-Macro-customfields-workaround.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>v1.0</tag>
   </scm>
 
   <properties>
