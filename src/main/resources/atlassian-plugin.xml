@@ -1,0 +1,15 @@
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
+  <plugin-info>
+    <description>${project.description}</description>
+    <version>${project.version}</version>
+    <vendor name="${project.organization.name}" url="${project.organization.url}" />
+  </plugin-info>
+
+  <servlet-filter key="issueview-field-allcustom-workaround" class="com.amadeus.jira.plugin.issueview_field_allcustom_workaround.AllCustomFieldSwallowingFilter" location="before-dispatch" weight="200">
+    <description>Removes field=allcustom parameters for Confluence Jira Macro requests</description>
+    <url-pattern>/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+  </servlet-filter>
+
+</atlassian-plugin>

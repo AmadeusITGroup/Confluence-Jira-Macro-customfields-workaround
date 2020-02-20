@@ -1,0 +1,8 @@
+@FieldsAreNonnullByDefault
+@ReturnValuesAreNonnullByDefault
+@ParametersAreNonnullByDefault
+package com.amadeus.jira.plugin.issueview_field_allcustom_workaround;
+
+import com.atlassian.annotations.nonnull.FieldsAreNonnullByDefault;
+import com.atlassian.annotations.nonnull.ReturnValuesAreNonnullByDefault;
+import javax.annotation.ParametersAreNonnullByDefault;
